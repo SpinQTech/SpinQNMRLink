@@ -1,0 +1,93 @@
+[build-system]
+requires = ["setuptools==75.3.2", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SpinQNMRLink"
+dynamic = ["version"]
+description = "Unified Python SDK for SpinQ Lab and Triangulum devices"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE.txt"}
+authors = [{name = "SpinQ Technology Co., Ltd."}]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "numpy>=1.20,<1.25; python_version<'3.9'",
+    "numpy>=1.23,<3; python_version>='3.9'",
+    "pydantic>=2.9,<2.11; python_version<'3.9'",
+    "pydantic>=2.9,<3; python_version>='3.9'",
+    "protobuf>=5.29.3,<6; python_version<'3.9'",
+    "protobuf>=5.29.3,<7; python_version>='3.9'",
+    "websocket-client>=1.6,<1.9; python_version<'3.9'",
+    "websocket-client>=1.6,<2; python_version>='3.9'",
+]
+
+[project.optional-dependencies]
+plot = [
+    "matplotlib>=3.5,<3.8; python_version<'3.9'",
+    "matplotlib>=3.5,<4; python_version>='3.9'",
+    "scipy>=1.8,<1.11; python_version<'3.9'",
+    "scipy>=1.8,<2; python_version>='3.9'",
+]
+qt = [
+    "PyQt5>=5.15,<6",
+    "pyqtgraph>=0.12,<0.13.4; python_version<'3.9'",
+    "pyqtgraph>=0.13,<0.14; python_version>='3.9'",
+]
+dev = [
+    "pytest>=7,<8.4; python_version<'3.9'",
+    "pytest>=7,<10; python_version>='3.9'",
+    "ruff==0.11.13",
+    "mypy==1.14.1",
+    "build>=1,<1.3; python_version<'3.9'",
+    "build>=1,<2; python_version>='3.9'",
+]
+docs = ["sphinx==7.1.2", "sphinx-rtd-theme==3.0.2", "myst-parser==2.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["spinqnmrlink", "spinqnmrlink.*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "spinqnmrlink._core._version.__version__"}
+
+[tool.setuptools.package-data]
+"spinqnmrlink" = ["py.typed"]
+"spinqnmrlink._core" = ["catalogue.json"]
+"spinqnmrlink._backends.lab.connection" = ["*.proto"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=.pytest-tmp"
+
+[tool.ruff]
+target-version = "py38"
+line-length = 100
+extend-exclude = ["src/spinqnmrlink/_backends/lab", "src/spinqnmrlink/_backends/triangulum/experiment", "src/spinqnmrlink/_backends/triangulum/utils", "src/spinqnmrlink/_core", "docs/_build"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.mypy]
+python_version = "3.8"
+files = ["src/spinqnmrlink/api.py", "src/spinqnmrlink/devices.py", "src/spinqnmrlink/experiments.py", "src/spinqnmrlink/config.py", "src/spinqnmrlink/catalogue.py", "src/spinqnmrlink/models.py"]
+follow_imports = "silent"
+ignore_missing_imports = true
+check_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = ["spinqnmrlink._backends.*", "spinqnmrlink._core.*"]
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = ["pydantic", "pydantic.*", "numpy", "numpy.*"]
+follow_imports = "skip"
+# Apply the existing third-party skip policy to stubs as well. Recent NumPy
+# stubs use newer syntax than the SDK's Python 3.8 compatibility target.
+follow_imports_for_stubs = true

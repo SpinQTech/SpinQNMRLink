@@ -1,0 +1,7 @@
+{% extends "!layout.html" %}
+{% block sidebartitle %}
+{{ super() }}
+<nav aria-label="Language" class="sdk-language">
+  <a href="{{ language_switch_url }}" hreflang="{{ 'en' if language_switch_label == 'English' else 'zh-CN' }}">{{ language_switch_label }}</a>
+</nav>
+{% endblock %}

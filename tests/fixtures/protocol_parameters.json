@@ -1,0 +1,1756 @@
+{
+  "triangulum.physical": {
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ]
+    },
+    "parameters": {
+      "compute_type": 0,
+      "relaxation_time": 20.0,
+      "sampleQubit": [],
+      "stepList": [],
+      "freShift": 0,
+      "freDemo": 0,
+      "makePps": false,
+      "sampleFre": 20000,
+      "sampleCount": 16000,
+      "sampleDelay": 0
+    }
+  },
+  "triangulum.circuit": {
+    "circuit": {
+      "gates": [
+        {
+          "angle": 0.0,
+          "controlQubit": -1,
+          "controlQubit2": -1,
+          "delay": 0.0,
+          "qubitIndex": 0,
+          "timeslot": 0,
+          "type": "X"
+        },
+        {
+          "angle": 0.0,
+          "controlQubit": -1,
+          "controlQubit2": -1,
+          "delay": 0.0,
+          "qubitIndex": 1,
+          "timeslot": 0,
+          "type": "X"
+        },
+        {
+          "angle": 0.0,
+          "controlQubit": -1,
+          "controlQubit2": -1,
+          "delay": 0.0,
+          "qubitIndex": 2,
+          "timeslot": 0,
+          "type": "X"
+        }
+      ],
+      "measures": [
+        1,
+        1,
+        1
+      ]
+    },
+    "qubits_num": 3,
+    "calcMatrix": true
+  },
+  "lab.two.nmr_signal": {
+    "custom_freq": false,
+    "freq_h": 27678523.0,
+    "freq_p": 15204524.0,
+    "repeat": 0,
+    "makePps": true,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "samplePath": 0,
+    "sampleQubit": 0,
+    "usingAwgFile": false
+  },
+  "lab.two.rabi": {
+    "custom_freq": false,
+    "freq_h": 27678523.0,
+    "freq_p": 15204524.0,
+    "repeat": 0,
+    "makePps": true,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "samplePath": 0,
+    "sampleQubit": 0,
+    "usingAwgFile": false
+  },
+  "lab.two.qubit": {
+    "custom_freq": false,
+    "freq_h": 27000000.0,
+    "freq_p": 11000000.0,
+    "repeat": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "samplePath": 0,
+    "sampleQubit": 0,
+    "usingAwgFile": false
+  },
+  "lab.two.t1": {
+    "custom_freq": false,
+    "freq_h": 27000000.0,
+    "freq_p": 11000000.0,
+    "repeat": 0,
+    "makePps": false,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 80.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 100000.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "samplePath": 0,
+    "sampleQubit": 0,
+    "usingAwgFile": false
+  },
+  "lab.two.t2": {
+    "custom_freq": false,
+    "freq_h": 27000000.0,
+    "freq_p": 11000000.0,
+    "repeat": 0,
+    "makePps": false,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 250000.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 80.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 250000.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "samplePath": 0,
+    "sampleQubit": 0,
+    "usingAwgFile": false
+  },
+  "lab.two.control": {
+    "custom_freq": false,
+    "freq_h": 27000000.0,
+    "freq_p": 11000000.0,
+    "repeat": 0,
+    "makePps": true,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ]
+    },
+    "samplePath": -1,
+    "sampleQubit": 0,
+    "usingAwgFile": false
+  },
+  "lab.two.initialization": {
+    "custom_freq": false,
+    "freq_h": 27000000.0,
+    "freq_p": 11000000.0,
+    "repeat": 9,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 718.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0
+        },
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 718.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0
+        },
+        {
+          "width": 40.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0
+        },
+        {
+          "width": 500000.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0
+        }
+      ],
+      "pPulse": [
+        {
+          "width": 40.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0
+        },
+        {
+          "width": 718.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0
+        },
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 718.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0
+        },
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 500000.0,
+          "am": 0.0,
+          "phase": 0.0,
+          "freshift": 0
+        }
+      ]
+    },
+    "samplePath": -1
+  },
+  "lab.two.gates_circuit": {
+    "custom_freq": false,
+    "freq_h": 27000000.0,
+    "freq_p": 11000000.0,
+    "repeat": 0,
+    "samplePath": -1,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 0,
+        "type": "H"
+      }
+    ]
+  },
+  "lab.two.tomography": {
+    "custom_freq": false,
+    "freq_h": 27000000.0,
+    "freq_p": 11000000.0,
+    "repeat": 0,
+    "samplePath": -1,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 0,
+        "type": "H"
+      }
+    ]
+  },
+  "lab.two.computing_task": {
+    "custom_freq": false,
+    "freq_h": 27000000.0,
+    "freq_p": 11000000.0,
+    "repeat": 0,
+    "samplePath": 0,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 0,
+        "type": "H"
+      }
+    ]
+  },
+  "lab.two.algorithm.basic": {
+    "calcMatrix": true,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": 0,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 1,
+        "type": "CNOT"
+      }
+    ],
+    "samplePath": -1
+  },
+  "lab.two.algorithm.deutsch": {
+    "calcMatrix": true,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": 0,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 1,
+        "type": "CNOT"
+      }
+    ],
+    "samplePath": -1
+  },
+  "lab.two.algorithm.bernstein_vazirani": {
+    "calcMatrix": true,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": 0,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 1,
+        "type": "CNOT"
+      }
+    ],
+    "samplePath": -1
+  },
+  "lab.two.algorithm.grover": {
+    "calcMatrix": true,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": 0,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 1,
+        "type": "CNOT"
+      }
+    ],
+    "samplePath": -1,
+    "grover_bin": 2
+  },
+  "lab.two.algorithm.qft": {
+    "calcMatrix": true,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": 0,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 1,
+        "type": "CNOT"
+      }
+    ],
+    "samplePath": -1
+  },
+  "lab.two.algorithm.hhl": {
+    "calcMatrix": true,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": 0,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 1,
+        "type": "CNOT"
+      }
+    ],
+    "samplePath": -1
+  },
+  "lab.two.algorithm.vqe": {
+    "calcMatrix": true,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": 0,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 1,
+        "type": "CNOT"
+      }
+    ],
+    "samplePath": -1
+  },
+  "lab.two.algorithm.qaoa": {
+    "calcMatrix": true,
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": 0,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 1,
+        "type": "CNOT"
+      }
+    ],
+    "samplePath": -1
+  },
+  "lab.two.spin_echo": {
+    "sampleCount": 16384,
+    "sampleFre": 10000,
+    "sampleDelay": 40,
+    "h_freShift": 0,
+    "h_freDemo": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "samplePath": 0
+  },
+  "lab.two.dynamic_decoupling": {
+    "sampleCount": 16384,
+    "sampleFre": 10000,
+    "sampleDelay": 0,
+    "h_freShift": 0,
+    "p_freShift": 0,
+    "h_freDemo": 0,
+    "p_freDemo": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "samplePath": 0
+  },
+  "lab.two.shaped_pulse": {
+    "sampleCount": 16384,
+    "sampleFre": 10000,
+    "h_freShift": 0,
+    "p_freShift": 0,
+    "h_freDemo": 0,
+    "p_freDemo": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 156.25,
+          "am": 13.53352832366127,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 15.305573773635818,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 17.24216238937528,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 19.348058160704674,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 21.62651668298873,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 24.079047427224857,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 26.705183522634336,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 29.502265617444284,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 32.465246735834974,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 35.58652521421384,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 38.855812751236414,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 42.260044322318876,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 45.783336177161424,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 49.40699735316383,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 53.10959910353452,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 56.8671053718672,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 60.653065971263345,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 64.43887248251953,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 68.1940751190348,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 71.88675697091757,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 75.48396019890073,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 78.95215696607879,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 82.25775623986647,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 85.36763613451477,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 88.24969025845955,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 90.87337563610701,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 93.21024923595276,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 95.23447998951764,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 96.92332344763442,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 98.25754689579004,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 99.22179382602435,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 99.80487811074755,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 100.0,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 99.80487811074755,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 99.22179382602435,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 98.25754689579004,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 96.92332344763442,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 95.23447998951764,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 93.21024923595276,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 90.87337563610701,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 88.24969025845955,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 85.36763613451477,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 82.25775623986647,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 78.95215696607879,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 75.48396019890073,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 71.88675697091757,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 68.1940751190348,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 64.43887248251953,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 60.653065971263345,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 56.8671053718672,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 53.10959910353452,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 49.40699735316383,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 45.783336177161424,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 42.260044322318876,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 38.855812751236414,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 35.58652521421384,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 32.465246735834974,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 29.502265617444284,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 26.705183522634336,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 24.079047427224857,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 21.62651668298873,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 19.348058160704674,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 17.24216238937528,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 15.305573773635818,
+          "phase": 0.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "samplePath": 0
+  },
+  "lab.two.optimized_pulse": {
+    "sampleCount": 16384,
+    "sampleFre": 10000,
+    "sampleDelay": 0,
+    "h_freShift": 0,
+    "p_freShift": 0,
+    "h_freDemo": 0,
+    "p_freDemo": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 156.25,
+          "am": 13.53352832366127,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 15.305573773635818,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 17.24216238937528,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 19.348058160704674,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 21.62651668298873,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 24.079047427224857,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 26.705183522634336,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 29.502265617444284,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 32.465246735834974,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 35.58652521421384,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 38.855812751236414,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 42.260044322318876,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 45.783336177161424,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 49.40699735316383,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 53.10959910353452,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 56.8671053718672,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 60.653065971263345,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 64.43887248251953,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 68.1940751190348,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 71.88675697091757,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 75.48396019890073,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 78.95215696607879,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 82.25775623986647,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 85.36763613451477,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 88.24969025845955,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 90.87337563610701,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 93.21024923595276,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 95.23447998951764,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 96.92332344763442,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 98.25754689579004,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 99.22179382602435,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 99.80487811074755,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 100.0,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 99.80487811074755,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 99.22179382602435,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 98.25754689579004,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 96.92332344763442,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 95.23447998951764,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 93.21024923595276,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 90.87337563610701,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 88.24969025845955,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 85.36763613451477,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 82.25775623986647,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 78.95215696607879,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 75.48396019890073,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 71.88675697091757,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 68.1940751190348,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 64.43887248251953,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 60.653065971263345,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 56.8671053718672,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 53.10959910353452,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 49.40699735316383,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 45.783336177161424,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 42.260044322318876,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 38.855812751236414,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 35.58652521421384,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 32.465246735834974,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 29.502265617444284,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 26.705183522634336,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 24.079047427224857,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 21.62651668298873,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 19.348058160704674,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 17.24216238937528,
+          "phase": 0.0,
+          "freshift": 0.0
+        },
+        {
+          "width": 156.25,
+          "am": 15.305573773635818,
+          "phase": 0.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "samplePath": -1
+  },
+  "lab.two.physical.custom": {
+    "compute_type": 0,
+    "relaxation_time": 15.0,
+    "stepList": [],
+    "samplePath": 0,
+    "h_freShift": 0,
+    "p_freShift": 0,
+    "h_freDemo": 0,
+    "p_freDemo": 0,
+    "makePps": true,
+    "sampleFre": 10000,
+    "sampleCount": 16384,
+    "sampleDelay": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "gradient": []
+  },
+  "lab.two.physical.pauli": {
+    "compute_type": 1,
+    "relaxation_time": 15.0,
+    "stepList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "samplePath": 0,
+    "h_freShift": 0,
+    "p_freShift": 0,
+    "h_freDemo": 0,
+    "p_freDemo": 0,
+    "makePps": true,
+    "sampleFre": 10000,
+    "sampleCount": 16384,
+    "sampleDelay": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "gradient": []
+  },
+  "lab.two.physical.tomography": {
+    "compute_type": 2,
+    "relaxation_time": 15.0,
+    "stepList": [],
+    "samplePath": -1,
+    "h_freShift": 0,
+    "p_freShift": 0,
+    "h_freDemo": 0,
+    "p_freDemo": 0,
+    "makePps": true,
+    "sampleFre": 10000,
+    "sampleCount": 16384,
+    "sampleDelay": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    },
+    "gradient": []
+  },
+  "lab.two.circuit.pulse": {
+    "relaxation_time": 15.0,
+    "samplePath": -1,
+    "h_freShift": 0,
+    "p_freShift": 0,
+    "h_freDemo": 0,
+    "p_freDemo": 0,
+    "sampleFre": 10000,
+    "sampleCount": 16384,
+    "sampleDelay": 0,
+    "gradient": [
+      {
+        "path": 1,
+        "value": 0.0,
+        "delay": 0.0
+      }
+    ],
+    "pulse": {
+      "hPulse": [
+        {
+          "width": 40.0,
+          "am": 100.0,
+          "phase": 90.0,
+          "freshift": 0.0
+        }
+      ],
+      "pPulse": []
+    }
+  },
+  "lab.two.circuit.gates": {
+    "relaxation_time": 15.0,
+    "samplePath": -1,
+    "h_freShift": 0,
+    "p_freShift": 0,
+    "h_freDemo": 0,
+    "p_freDemo": 0,
+    "sampleFre": 10000,
+    "sampleCount": 16384,
+    "sampleDelay": 0,
+    "gradient": [
+      {
+        "path": 1,
+        "value": 0.0,
+        "delay": 0.0
+      }
+    ],
+    "circuit": [
+      {
+        "angle": 0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H"
+      },
+      {
+        "angle": 0,
+        "controlQubit": 0,
+        "controlQubit2": -1,
+        "delay": 0,
+        "qubitIndex": 1,
+        "timeslot": 1,
+        "type": "CNOT"
+      }
+    ]
+  },
+  "lab.three.physical_custom": {
+    "freDemo": 0,
+    "freShift": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "phase": 0,
+          "am": 100,
+          "width": 200,
+          "freshift": 0
+        }
+      ],
+      "gradient": [
+        {
+          "value": 0,
+          "delay": 0,
+          "path": 1
+        }
+      ]
+    },
+    "calcMatrix": true,
+    "compute_type": 0,
+    "relaxation_time": 15,
+    "sampleCount": 16000,
+    "sampleDelay": 0,
+    "sampleFre": 50000,
+    "sampleQubit": [
+      1,
+      2,
+      3
+    ],
+    "makePps": true
+  },
+  "lab.three.physical_pauli": {
+    "freDemo": 0,
+    "freShift": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "phase": 0,
+          "am": 100,
+          "width": 200,
+          "freshift": 0
+        }
+      ],
+      "gradient": [
+        {
+          "value": 0,
+          "delay": 0,
+          "path": 1
+        }
+      ]
+    },
+    "calcMatrix": true,
+    "compute_type": 1,
+    "relaxation_time": 15,
+    "stepList": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      9,
+      10
+    ],
+    "samplePath": -1,
+    "makePps": true
+  },
+  "lab.three.tomography": {
+    "freDemo": 0,
+    "freShift": 0,
+    "pulse": {
+      "hPulse": [
+        {
+          "phase": 0,
+          "am": 100,
+          "width": 200,
+          "freshift": 0
+        }
+      ],
+      "gradient": [
+        {
+          "value": 0,
+          "delay": 0,
+          "path": 1
+        }
+      ]
+    },
+    "calcMatrix": true,
+    "compute_type": 2,
+    "relaxation_time": 15,
+    "sampleQubit": [
+      1,
+      2,
+      3
+    ],
+    "makePps": true
+  },
+  "lab.three.circuit_pulse": {
+    "pulse": {
+      "hPulse": [
+        {
+          "phase": 0,
+          "am": 100,
+          "width": 200,
+          "freshift": 0
+        }
+      ]
+    },
+    "calcMatrix": true,
+    "samplePath": 0,
+    "sampleQubit": [
+      1,
+      2,
+      3
+    ],
+    "repeat": 0
+  },
+  "lab.three.circuit": {
+    "circuit": [
+      {
+        "angle": 0.0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0.0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H",
+        "belongQubit": -1,
+        "customtype": ""
+      },
+      {
+        "angle": 0.0,
+        "controlQubit": 0,
+        "controlQubit2": 1,
+        "delay": 0.0,
+        "qubitIndex": 2,
+        "timeslot": 1,
+        "type": "CCNOT",
+        "belongQubit": -1,
+        "customtype": ""
+      }
+    ],
+    "relaxation_time": 15,
+    "calcMatrix": true,
+    "samplePath": 0,
+    "sampleQubit": [
+      1,
+      2,
+      3
+    ],
+    "repeat": 0
+  },
+  "lab.three.hybrid_circuit": {
+    "circuit": [
+      {
+        "angle": 0.0,
+        "controlQubit": -1,
+        "controlQubit2": -1,
+        "delay": 0.0,
+        "qubitIndex": 0,
+        "timeslot": 0,
+        "type": "H",
+        "belongQubit": -1,
+        "customtype": ""
+      },
+      {
+        "angle": 0.0,
+        "controlQubit": 0,
+        "controlQubit2": 1,
+        "delay": 0.0,
+        "qubitIndex": 2,
+        "timeslot": 1,
+        "type": "CCNOT",
+        "belongQubit": -1,
+        "customtype": ""
+      }
+    ],
+    "samplePath": 0,
+    "sampleQubit": [
+      1,
+      2,
+      3
+    ],
+    "repeat": 0
+  }
+}

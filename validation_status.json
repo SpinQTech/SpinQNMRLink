@@ -1,0 +1,465 @@
+{
+  "sdk_version": "1.0.0",
+  "offline": {
+    "status": "passed",
+    "date": "2026-10-28",
+    "tests_per_environment": 784,
+    "parameter_baselines": 35,
+    "protobuf_schema": "matches protocol reference",
+    "ruff": "passed",
+    "public_type_check": "passed_default_pyproject_configuration_six_public_modules",
+    "notes": "Current local automated checks: Windows/Python 3.12.15. Tester-reported platform validation is recorded separately. Offline data is not device measurement evidence.",
+    "standalone_source_examples": "All 35 typed parameter references and source lifecycles passed; Triangulum uses Python JSON WebSocket",
+    "lab_two_chapters": {
+      "principles": 10,
+      "algorithms": 8,
+      "technology": 4,
+      "research": 5
+    },
+    "triangulum_protocol": "Offline JSON/protocol fixtures and real localhost WebSocket loopback passed; no device run.",
+    "source_installation_guidance": "Conda Python3.10 environment with pip editable installation; no environment or device launch scripts",
+    "tested_python_versions": [
+      "3.12.15"
+    ],
+    "platform": "Windows-x86_64"
+  },
+  "platforms": {
+    "Windows-x86_64-Python3.8": "current_candidate_rerun_pending",
+    "Windows-x86_64-Python3.10": "current_candidate_rerun_pending",
+    "Windows-x86_64-Python3.12": "tests_and_protocol_loopback_passed",
+    "Linux-x86_64-Python3.8": "individual_matrix_entry_not_recorded; see platform_validation_reports",
+    "Linux-x86_64-Python3.10": "individual_matrix_entry_not_recorded; see platform_validation_reports",
+    "Linux-x86_64-Python3.12": "individual_matrix_entry_not_recorded; see platform_validation_reports",
+    "macOS-Intel-Python3.8": "individual_matrix_entry_not_recorded; see platform_validation_reports",
+    "macOS-Intel-Python3.10": "individual_matrix_entry_not_recorded; see platform_validation_reports",
+    "macOS-Intel-Python3.12": "individual_matrix_entry_not_recorded; see platform_validation_reports",
+    "macOS-ARM64-Python3.10": "individual_matrix_entry_not_recorded; see platform_validation_reports",
+    "macOS-ARM64-Python3.12": "individual_matrix_entry_not_recorded; see platform_validation_reports"
+  },
+  "hardware": [
+    {
+      "experiment_key": "triangulum.physical",
+      "device_type": "triangulum",
+      "mode": null,
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "triangulum.circuit",
+      "device_type": "triangulum",
+      "mode": null,
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.nmr_signal",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.rabi",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.qubit",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.t1",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.t2",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.control",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.initialization",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.gates_circuit",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.tomography",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.computing_task",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.algorithm.basic",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.algorithm.deutsch",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.algorithm.bernstein_vazirani",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.algorithm.grover",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.algorithm.qft",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.algorithm.hhl",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.algorithm.vqe",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.algorithm.qaoa",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.spin_echo",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.dynamic_decoupling",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.shaped_pulse",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.optimized_pulse",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.physical.custom",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.physical.pauli",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.physical.tomography",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.circuit.pulse",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.two.circuit.gates",
+      "device_type": "lab",
+      "mode": "TWO",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.three.physical_custom",
+      "device_type": "lab",
+      "mode": "THREE",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.three.physical_pauli",
+      "device_type": "lab",
+      "mode": "THREE",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.three.tomography",
+      "device_type": "lab",
+      "mode": "THREE",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.three.circuit_pulse",
+      "device_type": "lab",
+      "mode": "THREE",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.three.circuit",
+      "device_type": "lab",
+      "mode": "THREE",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    },
+    {
+      "experiment_key": "lab.three.hybrid_circuit",
+      "device_type": "lab",
+      "mode": "THREE",
+      "status": "pending",
+      "firmware": null,
+      "configuration": null,
+      "measurement": null
+    }
+  ],
+  "interpreter_versions": {
+    "3.12": "3.12.15"
+  },
+  "documentation": {
+    "date": "2026-10-28",
+    "languages": [
+      "zh_CN",
+      "en"
+    ],
+    "source_pages_per_language": 63,
+    "html_pages_checked": 132,
+    "strict_build": "passed",
+    "local_and_language_links": "passed",
+    "catalogue_example_and_paired_page_mappings": "35 experiments passed",
+    "notes": "README, configuration, timeout semantics, sampling choices, change log and current validation scope synchronized."
+  },
+  "distribution": {
+    "date": "2026-10-28",
+    "source_archive": "built_and_contents_checked",
+    "universal_wheel": "built_and_contents_checked",
+    "clean_wheel_install": "Windows_Python3.12_installed_catalogue_and_35_parameters_passed_without_native_loading_or_workers",
+    "example_json_allowlist": [
+      "examples/connection_config.example.json",
+      "examples/manifest.json"
+    ],
+    "local_profile_checks": "passed; only the public example JSON template and manifest are included",
+    "device_binaries": "none",
+    "Linux_installation": "tester_reported_pass; exact environment not recorded",
+    "macOS_installation": "tester_reported_pass; exact environment not recorded",
+    "synthetic_profile_and_stale_manifest_probe": "passed; three injected profiles and their content excluded"
+  },
+  "release_verification": {
+    "date": "2026-10-28",
+    "status": "local_candidate_not_published",
+    "python": "3.12.15",
+    "platform": "Windows-x86_64",
+    "offline_tests": 784,
+    "experiment_examples": 35,
+    "html_pages": 132,
+    "ruff": "passed",
+    "mypy": "passed_default_configuration",
+    "mypy_target_python": "3.8",
+    "mypy_scope": "six public source modules; NumPy/Pydantic import skip also applies to stubs",
+    "mypy_negative_probe": "passed; invalid public device argument is still rejected",
+    "wheel_installation": "passed",
+    "hardware_rerun": false,
+    "dependencies": {
+      "numpy": "2.5.3",
+      "pydantic": "2.14.0",
+      "protobuf": "6.33.6",
+      "websocket-client": "1.9.2",
+      "pytest": "9.1.1",
+      "ruff": "0.11.13",
+      "mypy": "1.14.1",
+      "build": "1.6.1"
+    },
+    "commands": [
+      "python -m pytest",
+      "python -m ruff check .",
+      "python -m mypy",
+      "python tools/check_examples.py",
+      "python tools/build_docs.py",
+      "python tools/check_docs.py",
+      "python -m build --no-isolation --outdir dist",
+      "python tools/check_distribution.py --dist-dir dist"
+    ],
+    "tooling": "Pinned setuptools 75.3.2 and wheel 0.45.1; declared docs tools; repository default mypy configuration.",
+    "evidence": "Public summary: docs/release-verification-20261027.md",
+    "scope": "SDK source checks and offline notification regressions; earlier live acquisition evidence is recorded separately.",
+    "pending": [
+      "Individual Python/architecture matrix results not supplied by the tester",
+      "Scientific measurement validation",
+      "New-revision live acquisition rerun not performed",
+      "Public publication"
+    ],
+    "triangulum_calc_matrix": "passed; true decodes density components, false accepts probability results with empty matrix arrays; nonempty legacy vectors remain optional",
+    "physical_start_notification": "passed offline; generic and custom start aliases, correlation, first-start retention, phase metadata and execution timeout"
+  },
+  "live_interface_validation": {
+    "date": "2026-10-28",
+    "scope": "Triangulum client API integration; not scientific measurement validation",
+    "circuit_calc_matrix_true": "passed; probabilities plus 8x8 density components",
+    "circuit_calc_matrix_false": "passed after empty-component compatibility fix; probabilities without matrix",
+    "physical_custom_pulse": "passed on 2026-10-28; request accepted, terminal S, SDK COMPLETED; 16000 points in each FID component and 16384 points in each FFT component",
+    "credentials_and_raw_evidence": "excluded from public distributions",
+    "circuit_validation_date": "2026-10-27",
+    "known_limitations": [],
+    "physical_start_notification": {
+      "offline_regression": "passed; both start aliases supported and only first matching start retained",
+      "post_fix_live_rerun": "not_performed",
+      "earlier_acquisition": "passed on 2026-10-28; this precedes the notification fix"
+    }
+  },
+  "platform_validation_reports": {
+    "Linux": {
+      "status": "passed_reported_by_user",
+      "reported_on": "2026-10-28",
+      "python_versions": null,
+      "architectures": null,
+      "notes": "User confirmed tester installation and testing; exact environment/version matrix was not supplied."
+    },
+    "macOS": {
+      "status": "passed_reported_by_user",
+      "reported_on": "2026-10-28",
+      "python_versions": null,
+      "architectures": null,
+      "notes": "User confirmed tester installation and testing; exact environment/version matrix was not supplied."
+    }
+  }
+}

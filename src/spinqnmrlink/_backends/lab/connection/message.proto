@@ -1,0 +1,52 @@
+// Copyright 2023 SpinQ Technology Co., Ltd.
+//
+// SPDX-License-Identifier: GPL-3.0-only
+
+syntax = "proto3";
+
+// Qubit business domain selected by the SpinQLAB main application.
+// Value 0 is intentionally the two-qubit compatibility default.
+enum QubitMode {
+  QUBIT_MODE_TWO = 0;
+  QUBIT_MODE_THREE = 1;
+}
+
+message BaseMessage {
+  Metadata metadata = 1;
+  string msg_id = 2; // Message type: used to distinguish different business operations
+  optional QubitMode qubit_mode = 3; // Current/target qubit business domain (protocol v2.0)
+
+  // Use oneof to indicate that only one of the following formats is used for transmission
+  oneof message_type {
+    ChartData chart_data = 33; // Spectrum/curve data format
+    string json_data = 44; // JSON string format
+  } 
+}
+
+/**
+* Metadata required by every message packet.
+*/
+message Metadata {
+  int64 sequence_id = 1; // For request messages, a unique message ID; for responses, must echo the request's ID to form a closed loop.
+  int64 timestamp = 2; // Message timestamp
+  string account = 4; // Username of the sender
+  string session_id = 5;// Session ID obtained after login
+}
+
+/**
+* Spectrum/curve data.
+*/
+message ChartData {
+  string task_id = 1; // Associated task ID
+  string group = 2; // Associated experiment
+  string chart_name = 3; // Chart name
+  optional string path=4; // Chart channel
+  optional string qubit =5; // Qubit index for the chart; supports three-qubit and later extensions
+  optional string step = 6; // Observation step
+  repeated DataPointProto points = 7;
+}
+
+message DataPointProto {
+  float x = 1;
+  float y = 2;
+}

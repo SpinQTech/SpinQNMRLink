@@ -1,0 +1,2 @@
+# Install dependencies from the single project metadata source.
+-e .

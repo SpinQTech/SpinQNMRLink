@@ -1,0 +1,247 @@
+[
+  {
+    "experiment_key": "triangulum.physical",
+    "device": "triangulum",
+    "mode": null,
+    "chapter": null,
+    "source": "examples/triangulum/physical.py"
+  },
+  {
+    "experiment_key": "triangulum.circuit",
+    "device": "triangulum",
+    "mode": null,
+    "chapter": null,
+    "source": "examples/triangulum/circuit.py"
+  },
+  {
+    "experiment_key": "lab.two.nmr_signal",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "principles",
+    "source": "examples/lab/two/principles/nmr_signal.py"
+  },
+  {
+    "experiment_key": "lab.two.rabi",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "principles",
+    "source": "examples/lab/two/principles/rabi.py"
+  },
+  {
+    "experiment_key": "lab.two.qubit",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "principles",
+    "source": "examples/lab/two/principles/qubit.py"
+  },
+  {
+    "experiment_key": "lab.two.t1",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "principles",
+    "source": "examples/lab/two/principles/t1.py"
+  },
+  {
+    "experiment_key": "lab.two.t2",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "principles",
+    "source": "examples/lab/two/principles/t2.py"
+  },
+  {
+    "experiment_key": "lab.two.control",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "principles",
+    "source": "examples/lab/two/principles/control.py"
+  },
+  {
+    "experiment_key": "lab.two.initialization",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "principles",
+    "source": "examples/lab/two/principles/initialization.py"
+  },
+  {
+    "experiment_key": "lab.two.gates_circuit",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "principles",
+    "source": "examples/lab/two/principles/gates_circuit.py"
+  },
+  {
+    "experiment_key": "lab.two.tomography",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "principles",
+    "source": "examples/lab/two/principles/tomography.py"
+  },
+  {
+    "experiment_key": "lab.two.computing_task",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "principles",
+    "source": "examples/lab/two/principles/computing_task.py"
+  },
+  {
+    "experiment_key": "lab.two.algorithm.basic",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "algorithms",
+    "source": "examples/lab/two/algorithms/algorithm_basic.py"
+  },
+  {
+    "experiment_key": "lab.two.algorithm.deutsch",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "algorithms",
+    "source": "examples/lab/two/algorithms/algorithm_deutsch.py"
+  },
+  {
+    "experiment_key": "lab.two.algorithm.bernstein_vazirani",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "algorithms",
+    "source": "examples/lab/two/algorithms/algorithm_bernstein_vazirani.py"
+  },
+  {
+    "experiment_key": "lab.two.algorithm.grover",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "algorithms",
+    "source": "examples/lab/two/algorithms/algorithm_grover.py"
+  },
+  {
+    "experiment_key": "lab.two.algorithm.qft",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "algorithms",
+    "source": "examples/lab/two/algorithms/algorithm_qft.py"
+  },
+  {
+    "experiment_key": "lab.two.algorithm.hhl",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "algorithms",
+    "source": "examples/lab/two/algorithms/algorithm_hhl.py"
+  },
+  {
+    "experiment_key": "lab.two.algorithm.vqe",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "algorithms",
+    "source": "examples/lab/two/algorithms/algorithm_vqe.py"
+  },
+  {
+    "experiment_key": "lab.two.algorithm.qaoa",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "algorithms",
+    "source": "examples/lab/two/algorithms/algorithm_qaoa.py"
+  },
+  {
+    "experiment_key": "lab.two.spin_echo",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "technology",
+    "source": "examples/lab/two/technology/spin_echo.py"
+  },
+  {
+    "experiment_key": "lab.two.dynamic_decoupling",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "technology",
+    "source": "examples/lab/two/technology/dynamic_decoupling.py"
+  },
+  {
+    "experiment_key": "lab.two.shaped_pulse",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "technology",
+    "source": "examples/lab/two/technology/shaped_pulse.py"
+  },
+  {
+    "experiment_key": "lab.two.optimized_pulse",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "technology",
+    "source": "examples/lab/two/technology/optimized_pulse.py"
+  },
+  {
+    "experiment_key": "lab.two.physical.custom",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "research",
+    "source": "examples/lab/two/research/physical_custom.py"
+  },
+  {
+    "experiment_key": "lab.two.physical.pauli",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "research",
+    "source": "examples/lab/two/research/physical_pauli.py"
+  },
+  {
+    "experiment_key": "lab.two.physical.tomography",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "research",
+    "source": "examples/lab/two/research/physical_tomography.py"
+  },
+  {
+    "experiment_key": "lab.two.circuit.pulse",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "research",
+    "source": "examples/lab/two/research/circuit_pulse.py"
+  },
+  {
+    "experiment_key": "lab.two.circuit.gates",
+    "device": "lab",
+    "mode": "TWO",
+    "chapter": "research",
+    "source": "examples/lab/two/research/circuit_gates.py"
+  },
+  {
+    "experiment_key": "lab.three.physical_custom",
+    "device": "lab",
+    "mode": "THREE",
+    "chapter": null,
+    "source": "examples/lab/three/physical_custom.py"
+  },
+  {
+    "experiment_key": "lab.three.physical_pauli",
+    "device": "lab",
+    "mode": "THREE",
+    "chapter": null,
+    "source": "examples/lab/three/physical_pauli.py"
+  },
+  {
+    "experiment_key": "lab.three.tomography",
+    "device": "lab",
+    "mode": "THREE",
+    "chapter": null,
+    "source": "examples/lab/three/tomography.py"
+  },
+  {
+    "experiment_key": "lab.three.circuit_pulse",
+    "device": "lab",
+    "mode": "THREE",
+    "chapter": null,
+    "source": "examples/lab/three/circuit_pulse.py"
+  },
+  {
+    "experiment_key": "lab.three.circuit",
+    "device": "lab",
+    "mode": "THREE",
+    "chapter": null,
+    "source": "examples/lab/three/circuit.py"
+  },
+  {
+    "experiment_key": "lab.three.hybrid_circuit",
+    "device": "lab",
+    "mode": "THREE",
+    "chapter": null,
+    "source": "examples/lab/three/hybrid_circuit.py"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "lab": {
+    "host": "192.0.2.20",
+    "port": 8181,
+    "account": "lab-reserved",
+    "password": "lab-reserved",
+    "transport": "tcp"
+  },
+  "triangulum": {
+    "host": "192.0.2.10",
+    "port": 55444,
+    "account": "replace-with-user-center-account",
+    "password": "replace-with-user-center-password",
+    "websocket_path": "",
+    "websocket_secure": false,
+    "heartbeat_interval": 10,
+    "heartbeat_timeout": 30
+  }
+}

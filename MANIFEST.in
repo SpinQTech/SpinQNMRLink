@@ -1,0 +1,17 @@
+include OPEN_SOURCE_PACKAGE.md
+include LICENSE.txt README.md README.zh_CN.md CONTRIBUTING.md CHANGELOG.md SECURITY.md SUPPORT.md
+include pyproject.toml setup.py requirements.txt validation_status.json
+recursive-include src/spinqnmrlink *.json *.proto py.typed
+recursive-include examples *.py *.md
+# Remove cached/untracked JSON entries, then include only public example data.
+recursive-exclude examples *.json
+include examples/manifest.json examples/connection_config.example.json
+recursive-include docs *.rst *.md *.py *.txt *.css *.js *.html *.png *.svg
+recursive-include tests *.py *.json *.md *.sha256
+recursive-include tools *.py *.md
+recursive-include .github *.yml *.md
+prune docs/_build
+prune .venv
+prune .pytest-tmp
+global-exclude *.py[cod]
+global-exclude connection_config.json *.local.json
