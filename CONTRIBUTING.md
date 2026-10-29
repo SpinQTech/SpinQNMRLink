@@ -15,9 +15,9 @@ issue before implementation. Report vulnerabilities privately following
 
 ## Development setup and conventions / 开发环境与约定
 
-Use Python 3.8-compatible syntax. Follow the [source installation guide](docs/en/installation.rst) to create a Conda environment, then run `python -m pip install -e ".[dev,docs]"` from the repository root. Keep device wire protocols and parameter units stable. New code belongs in the public API, shared core or private device adapter according to its responsibility. Public API examples must not import private adapters.
+Use Python 3.8-compatible syntax. Follow the [source installation guide](docs/en/installation.rst) to create a standard-library `venv` environment from an independently installed Python interpreter, then run `python -m pip install -e ".[dev,docs]"` from the repository root. Keep device wire protocols and parameter units stable. New code belongs in the public API, shared core or private device adapter according to its responsibility. Public API examples must not import private adapters.
 
-新增代码使用兼容 Python 3.8 的语法。按[源码安装说明](docs/zh_CN/installation.rst)创建 Conda 环境，在项目根目录运行 `python -m pip install -e ".[dev,docs]"`。保持设备通信协议及参数单位兼容，按职责划分公开 API、共享核心、内部设备适配器。公开示例不得导入内部适配器。
+新增代码使用兼容 Python 3.8 的语法。按[源码安装说明](docs/zh_CN/installation.rst)，使用独立安装的 Python 解释器和标准库 `venv` 创建环境，在项目根目录运行 `python -m pip install -e ".[dev,docs]"`。保持设备通信协议及参数单位兼容，按职责划分公开 API、共享核心、内部设备适配器。公开示例不得导入内部适配器。
 
 ## Local validation / 本地验证
 
